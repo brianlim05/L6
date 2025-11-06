@@ -1,21 +1,21 @@
-// App.js
+
 import React, { useState } from 'react';
 import { View, Text, TextInput, ScrollView, Button, Alert } from 'react-native';
 import Logo from './component/Logo';
 
 export default function App() {
-    // Name input
+
     const [name, setName] = useState('');
 
-    // Logo answers
+
     const [looneyAns, setLooneyAns] = useState('left');
     const [monopolyAns, setMonopolyAns] = useState('left');
     const [kitkatAns, setKitkatAns] = useState('left');
     const [starbucksAns, setStarbucksAns] = useState('left');
     const [skechersAns, setSkechersAns] = useState('left');
 
-    const handleSubmit = () => {
-        // correct answers
+    const Submit = () => {
+
         const correctAnswers = {
             looney: 'right',
             monopoly: 'right',
@@ -32,7 +32,7 @@ export default function App() {
         if (starbucksAns === correctAnswers.starbucks) score++;
         if (skechersAns === correctAnswers.skechers) score++;
 
-        // show results
+
         if (score === 5) {
             Alert.alert('Result', `Well done! ${name}`);
         } else if (score === 0) {
@@ -93,7 +93,7 @@ export default function App() {
             />
 
             <View style={{ marginTop: 30, marginBottom: 50 }}>
-                <Button title="Submit Answers" onPress={handleSubmit} />
+                <Button title="Submit Answers" onPress={Submit} />
             </View>
         </ScrollView>
     );

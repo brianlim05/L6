@@ -16,13 +16,23 @@ A mobile quiz app where you:
 
 ## 🎯 Results & Feedback
 
-Depending on your score, you’ll get a custom alert and GIF:
+Depending on your score, the app will show the apporiate alert:
 
-| Result | Message | GIF |
-|:--|:--|:--|
-| All wrong | “All wrong, (name)! Try again.” | ![All Wrong](https://media.giphy.com/media/26Fxy3Iz1ari8oytO/giphy.gif) |
-| All correct | “Well done!, (name)” | ![Well Done](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif) |
-| At least 1 right | “You can do better next time, (name).” | ![Do Better](https://media.giphy.com/media/3o6ZsYxFJjH6QOXyow/giphy.gif) |
+**🟥 All Wrong**  
+> “All wrong, (name)! Try again.”  
+![All Wrong](./gif/allwrong_gif.gif)
+
+---
+
+**🟩 All Correct**  
+> “Well done!, (name)”  
+![All Correct](./assets/allcorrect_gif.gif)
+
+---
+
+**🟨 At Least One Right**  
+> “You can do better next time, (name).”  
+![Do Better](./assets/onewrong_gif.gif)
 
 ---
 

@@ -26,13 +26,13 @@ Depending on your score, the app will show the apporiate alert:
 
 **🟩 All Correct**  
 > “Well done!, (name)”  
-![All Correct](./assets/allcorrect_gif.gif)
+![All Correct](./gif/allcorrect_gif.gif)
 
 ---
 
 **🟨 At Least One Right**  
 > “You can do better next time, (name).”  
-![Do Better](./assets/onewrong_gif.gif)
+![Do Better](./gif/onewrong_gif.gif)
 
 ---
 

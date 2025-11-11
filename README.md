@@ -48,4 +48,5 @@ Depending on your score, the app will show the apporiate alert:
 
 ```bash
 npm install
-npx expo start
+npm install @react-native-picker/picker
+npm run android
